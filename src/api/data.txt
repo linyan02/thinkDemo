@@ -1,0 +1,257 @@
+//账户总览数据展示
+{
+   "errno":0,//返回码有：(成功)0，101（没有权限），403（没有登录）
+   "errmsg":"",
+   "data":{"availableMoney":1000.00,
+            "coupon":1,
+            "integral":100,
+            "news":16
+            }
+ }
+
+//资金数据
+{
+   "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+   "errmsg":"",
+   "data":{"availableMoney":126778.43,
+            "bidFreeze":600.00,
+            "investDueIn":1325.01,
+            "debts":6249.98,
+            "netAsset":122453.46
+            }
+ }
+
+ //交易信息
+ {
+    "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+    "errmsg":"",
+    "data":{"totalInvest":600.00,
+             "bidFreezeNu":4,
+             "investDueInNu":5,
+             "loanNu":2,
+             "debtNu":16
+             }
+  }
+
+  //收益信息
+   {
+      "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+      "errmsg":"",
+      "data":{"totalIncome":2.81,
+               "totalPrincipal":100.00,
+               "30Income":0.00,
+               "incomeDueIn":125.01,
+               "incomeRate":2.81
+               }
+    }
+    //资金明细
+         {
+               "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+               "errmsg":"",
+               "data":{
+                   "page":{"count": 17,"totalPages": 4,"numsPerPage": 5,"currentPage": 1},
+                   "data":[{     "id":123,
+                                 "investPersonName":"张春波",
+                                 "investPersonId":528,
+                                 "createDate":"2016-06-15T07:13:14.000Z",
+                                 "recordNumber":"0491723478853477134",
+                                 "incomeMoney":100.00,
+                                  "payMoney":0.00,
+                                 "transferDate":"2016-06-15T07:13:14.000Z",
+                                 "currentMoney":100.00,
+                                 "transferTypeName":"充值",
+                                 "dealRecordStatus":"1",
+                                 "dealRecordStatusName":"等待支付"
+                            },{  "id":124,
+                                 "investPersonName":"张春波",
+                                 "investPersonId":528,
+                                 "createDate":"2016-06-14T07:13:14.000Z",
+                                 "recordNumber":"5291723177783753274",
+                                 "incomeMoney":100.00,
+                                  "payMoney":0.00,
+                                 "transferDate":"2016-06-14T07:13:14.000Z",
+                                 "currentMoney":100.00,
+                                 "transferTypeName":"充值",
+                                 "dealRecordStatus":"2",
+                                 "dealRecordStatusName":"交易失败"
+                            },{  "id":125,
+                                 "investPersonName":"张春波",
+                                 "investPersonId":528,
+                                 "createDate":"2016-06-13T07:13:14.000Z",
+                                 "recordNumber":"74595253138568204166S",
+                                 "incomeMoney":0.00,
+                                  "payMoney":100.00,
+                                 "transferDate":"2016-06-13T07:13:14.000Z",
+                                 "currentMoney":100.00,
+                                 "transferTypeName":"取现",
+                                 "dealRecordStatus":"2",
+                                 "dealRecordStatusName":"交易成功"
+                            },{ "id":126,
+                                "investPersonName":"张春波",
+                                "investPersonId":528,
+                                "createDate":"2016-06-15T07:13:14.000Z",
+                                "recordNumber":"74595253138568204166S",
+                                "incomeMoney":0.00,
+                                 "payMoney":100,
+                                "transferDate":"2016-06-15T07:13:14.000Z",
+                                "currentMoney":100.00,
+                                "transferTypeName":"投资",
+                                "dealRecordStatus":"1",
+                                "dealRecordStatusName":"交易失败"
+                            },{  "id":127,
+                                 "investPersonName":"张春波",
+                                 "investPersonId":528,
+                                 "createDate":"2016-06-17T07:13:14.000Z",
+                                 "recordNumber":"11891828049802654163S",
+                                 "incomeMoney":0.00,
+                                  "payMoney":7.86,
+                                 "transferDate":"2016-06-17T07:13:14.000Z",
+                                 "currentMoney":100.00,
+                                 "transferTypeName":"平台收取的一次性费用",
+                                 "dealRecordStatus":"2",
+                                 "dealRecordStatusName":"交易成功"
+                            }
+                   ]
+               }
+         }
+
+
+   //散标投标中（理财计划投标中）
+       {
+             "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+             "errmsg":"",
+             "data":{
+                 "page":{"count": 17,"totalPages": 4,"numsPerPage": 4,"currentPage": 1},
+                 "data":[{     "planId":6118,
+                               "projectName":到期立返返息,
+                               "bidtime":"2016-01-22",
+                               "userMoney":100.00,
+                               "loanLife":"6个月",
+                                "interestRate":12
+                          },{  "planId":6117,
+                              "projectName":"到期返测试005",
+                              "bidtime":"2016-01-22",
+                              "userMoney":200.00,
+                              "loanLife":"6个月",
+                               "interestRate":12
+                          },{  "planId":6114,
+                              "projectName":"到期返测试003",
+                              "bidtime":"2016-01-22",
+                              "userMoney":200.00,
+                              "loanLife":"6个月",
+                               "interestRate":12
+                          },{ "planId":5052,
+                             "projectName":"郭玉妍2015年12月个贷项目_zcb测试	",
+                             "bidtime":"2015-12-30",
+                             "userMoney":100.00,
+                             "loanLife":"3个月",
+                              "interestRate":12
+                          }
+                 ]
+             }
+       }
+
+   //散标代收投资中()
+      {
+            "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+            "errmsg":"",
+            "data":{
+                "page":{"count": 17,"totalPages": 4,"numsPerPage": 5,"currentPage": 1},
+                "data":[{     "planId":123,
+                              "projectName":到期立返返息,
+                              "bidtime":"2016-01-22",
+                              "userMoney":100.00,
+                              "loanLife":"6个月",
+                              "interestRate":12，
+                              "intentDate"："",
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{  "planId":123,
+                             "projectName":"到期返测试005",
+                             "bidtime":"2016-01-22",
+                             "userMoney":200.00,
+                             "loanLife":"6个月",
+                              "interestRate":12,
+                              "intentDate"："",
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{  "planId":123,
+                             "proName":"到期返测试003",
+                             "projectName":528,
+                             "bidtime":"2016-01-22",
+                             "userMoney":200.00,
+                             "loanLife":"6个月",
+                              "interestRate":12,
+                              "intentDate"："",
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{ "planId":123,
+                            "projectName":"郭玉妍2015年12月个贷项目_zcb测试	",
+                            "bidtime":"2015-12-30",
+                            "userMoney":100.00,
+                            "loanLife":"3个月",
+                             "interestRate":12,
+                             "intentDate"："",
+                             "planPaymentsMoney":,
+                             "orderNo":"",
+                             "url":""
+                         }
+                ]
+            }
+      }
+
+
+    //理财代收投资中
+      {
+            "errno":0,   //返回码有：(成功)0，101（没有权限），403（没有登录）
+            "errmsg":"",
+            "data":{
+                "page":{"count": 17,"totalPages": 4,"numsPerPage": 5,"currentPage": 1},
+                "data":[{     "planId":123,
+                              "projectName":到期立返返息,
+                              "bidtime":"2016-01-22",//加入时间
+                              "userMoney":100.00,
+                              "loanLife":"6个月",
+                              "interestRate":12，
+                              "intentDate"："",//计划到期时间
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{  "planId":123,
+                             "projectName":"到期返测试005",
+                             "bidtime":"2016-01-22",
+                             "userMoney":200.00,
+                             "loanLife":"6个月",
+                              "interestRate":12,
+                              "intentDate"："",
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{  "planId":123,
+                             "proName":"到期返测试003",
+                             "projectName":528,
+                             "bidtime":"2016-01-22",
+                             "userMoney":200.00,
+                             "loanLife":"6个月",
+                              "interestRate":12,
+                              "intentDate"："",
+                              "planPaymentsMoney":,
+                              "orderNo":"",
+                              "url":""
+                         },{ "planId":123,
+                            "projectName":"郭玉妍2015年12月个贷项目_zcb测试	",
+                            "bidtime":"2015-12-30",
+                            "userMoney":100.00,
+                            "loanLife":"3个月",
+                             "interestRate":12,
+                             "intentDate"："",
+                             "planPaymentsMoney":,
+                             "orderNo":"",
+                             "url":""
+                         }
+                ]
+            }
+      }

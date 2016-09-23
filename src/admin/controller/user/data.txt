@@ -1,0 +1,211 @@
+
+
+//账户总览数据展示  "api/user/statistic/all"
+{
+   "errno":0,//
+   "errmsg":"",
+   "data":{"availableMoney":1000.00,
+            "investNu":9, //投资笔数
+            "quoteNu":166,//报价笔数
+            "news":16
+            }
+ }
+
+//账户统计 "api/user/statistic/account"
+{
+   "errno":0,
+   "errmsg":"",
+   "data":{"investNu":9,//投资笔数
+            "totalIncome":600.00, //累计收益
+            "investMoney":1325.01 //累计投资额
+            }
+ }
+
+ //我的投资中---投资中   "api/user/statistic/bid/:start/:limit"
+ //我的投资中---已确认   "api/user/statistic/success/:start/:limit"
+ //我的投资中---投资失败 "api/user/statistic/fail/:start/:limit"
+ //以上三个地址返回结果集如下
+ {
+              "errno":0,
+              "errmsg":"",
+              "data":{
+                  "iTotalRecords":4,
+                  "data":[{     "planId":1,
+                                "projectName":"201605票据理财",
+                                "bidtime":"2016-09-01",
+                                "userMoney":100.00,
+                                "loanLife":"6",
+                                "interestRate":3,
+                                "shares":2
+                           },{  "planId":2,
+                               "projectName":"201606票据理财",
+                               "bidtime":"2016-09-10",
+                               "userMoney":200.00,//元
+                               "loanLife":"3",  //天
+                                "interestRate":2，//千分比
+                                "shares":2
+                           },{  "planId":1,
+                                "projectName":"201605票据理财",
+                                "bidtime":"2016-09-01",
+                                "userMoney":500.00,
+                                "loanLife":"6",
+                                "interestRate":3,
+                                "shares":5
+                           },{  "planId":2,
+                               "projectName":"201606票据理财",
+                               "bidtime":"2016-09-10",
+                               "userMoney":100.00,//元
+                               "loanLife":"3",  //天
+                                "interestRate":2，//千分比
+                                 "shares":1
+                           }
+                  ]
+              }
+ }
+//我的投资中---回款中  "api/user/statistic/back/:start/:limit"
+  {
+               "errno":0,
+               "errmsg":"",
+               "data":{
+                   "iTotalRecords":4,
+                   "data":[{     "planId":1,
+                                 "projectName":"201605票据理财",
+                                 "bidtime":"2016-09-01",
+                                 "userMoney":10000.00,
+                                 "loanLife":"6",
+                                 "interestRate":3,
+                                 "shares":1，
+                                 "backTime":"2016-09-22"，//回款时间
+                                 "totalIncome":10018 //回款总金额
+                            },{ "planId":1,
+                               "projectName":"201605票据理财",
+                               "bidtime":"2016-09-01",
+                               "userMoney":10000.00,
+                               "loanLife":"6",
+                               "interestRate":3,
+                               "shares":1，
+                               "backTime":"2016-09-22"，//回款时间
+                               "totalIncome":10018 //回款总金额
+                            },{"planId":1,
+                                 "projectName":"201605票据理财",
+                                 "bidtime":"2016-09-01",
+                                 "userMoney":10000.00,
+                                 "loanLife":"6",
+                                 "interestRate":3,
+                                 "shares":1，
+                                 "backTime":"2016-09-22"，//回款时间
+                                 "totalIncome":10018 //回款总金额
+                            },{"planId":1,
+                               "projectName":"201605票据理财",
+                               "bidtime":"2016-09-01",
+                               "userMoney":10000.00,
+                               "loanLife":"6",
+                               "interestRate":3,
+                               "shares":1，
+                               "backTime":"2016-09-22"，//回款时间
+                               "totalIncome":10018 //回款总金额
+                          }
+                   ]
+               }
+  }
+
+
+  //我的投资中---已结清  "api/user/statistic/finish/:start/:limit"
+    {
+                 "errno":0,
+                 "errmsg":"",
+                 "data":{
+                     "iTotalRecords":4,
+                     "data":[{     "planId":1,
+                                   "projectName":"201605票据理财",
+                                   "bidtime":"2016-09-01",
+                                   "userMoney":10000.00,
+                                   "loanLife":"6",
+                                   "interestRate":3,
+                                   "shares":1，
+                                    "finishTime":"2016-09-22" //结清时间
+
+                              },{ "planId":1,
+                                 "projectName":"201605票据理财",
+                                 "bidtime":"2016-09-01",
+                                 "userMoney":10000.00,
+                                 "loanLife":"6",
+                                 "interestRate":3,
+                                 "shares":1，
+                                  "finishTime":"2016-09-22" //结清时间
+
+                              },{"planId":1,
+                                   "projectName":"201605票据理财",
+                                   "bidtime":"2016-09-01",
+                                   "userMoney":10000.00,
+                                   "loanLife":"6",
+                                   "interestRate":3,
+                                   "shares":1，
+                                   "finishTime":"2016-09-22" //结清时间
+
+                              },{"planId":1,
+                                 "projectName":"201605票据理财",
+                                 "bidtime":"2016-09-01",
+                                 "userMoney":10000.00,
+                                 "loanLife":"6",
+                                 "interestRate":3,
+                                 "shares":1，
+                                 "finishTime":"2016-09-22" //结清时间
+
+                            }
+                     ]
+                 }
+    }
+
+
+    //消息中心 --消息统计   "api/user/news/statistic"
+
+
+    //消息中心 --消息列表   "api/user/news/:start/:limit"
+        {
+                     "errno":0,
+                     "errmsg":"",
+                     "data":{
+                         "iTotalRecords":4,
+                         "data":[{     "id":1,
+                                       "projectName":"201605票据理财",
+                                       "bidtime":"2016-09-01",
+                                       "userMoney":10000.00,
+                                       "loanLife":"6",
+                                       "interestRate":3,
+                                       "shares":1，
+                                        "finishTime":"2016-09-22" //结清时间
+
+                                  },{ "planId":1,
+                                     "projectName":"201605票据理财",
+                                     "bidtime":"2016-09-01",
+                                     "userMoney":10000.00,
+                                     "loanLife":"6",
+                                     "interestRate":3,
+                                     "shares":1，
+                                      "finishTime":"2016-09-22" //结清时间
+
+                                  },{"planId":1,
+                                       "projectName":"201605票据理财",
+                                       "bidtime":"2016-09-01",
+                                       "userMoney":10000.00,
+                                       "loanLife":"6",
+                                       "interestRate":3,
+                                       "shares":1，
+                                       "finishTime":"2016-09-22" //结清时间
+
+                                  },{"planId":1,
+                                     "projectName":"201605票据理财",
+                                     "bidtime":"2016-09-01",
+                                     "userMoney":10000.00,
+                                     "loanLife":"6",
+                                     "interestRate":3,
+                                     "shares":1，
+                                     "finishTime":"2016-09-22" //结清时间
+
+                                }
+                         ]
+                     }
+        }
+    //消息中心 --查看消息体  "api/user/news/:id"
+

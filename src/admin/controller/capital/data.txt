@@ -1,0 +1,127 @@
+/**
+  * 我要投资的列表页
+  * 公共推送list    /api/list/public/：start/:limit
+  * 私有推送list    /api/list/personal/：start/:limit
+  **/
+  {
+     "errno":0,
+     "errmsg":"",
+     "data":{
+         "iTotalRecords":4,
+         "data":[{     "planId":5,//项目id
+                       "planName":"测试_zcb_招标1",//项目名称
+                       "borrowerName":"浙江云峰集团",//借款企业
+                       "planMoney":10000.00,//融资金额
+                       "productKey":"depositInstead",//业务类型key
+                       "productName":"保证金代存",//业务类型
+                       "bankname":"中国工商银行股份有限公司"，//银行
+                       "planLimit":30, //投资天数
+                       "dayRate":10, //日化利率
+                       "proportion":100 //项目进度
+                  },{  "planId":5,//项目id
+                       "planName":"测试_zcb_招标1",//项目名称
+                       "borrowerName":"浙江云峰集团",//借款企业
+                       "planMoney":10000.00,//融资金额
+                       "productKey":"depositInstead",//业务类型key
+                       "productName":"保证金代存",//业务类型
+                       "bankname":"中国工商银行股份有限公司"，//银行
+                       "planLimit":30, //投资天数
+                       "dayRate":10, //日化利率
+                       "proportion":100 //项目进度
+                  },{  "planId":5,//项目id
+                       "planName":"测试_zcb_招标1",//项目名称
+                       "borrowerName":"浙江云峰集团",//借款企业
+                       "planMoney":10000.00,//融资金额
+                       "productKey":"depositInstead",//业务类型key
+                       "productName":"保证金代存",//业务类型
+                       "bankname":"中国工商银行股份有限公司"，//银行
+                       "planLimit":30, //投资天数
+                       "dayRate":10, //日化利率
+                       "proportion":100 //项目进度
+                  },{  "planId":5,//项目id
+                       "planName":"测试_zcb_招标1",//项目名称
+                       "borrowerName":"浙江云峰集团",//借款企业
+                       "planMoney":10000.00,//融资金额
+                       "productKey":"depositInstead",//业务类型key
+                       "productName":"保证金代存",//业务类型
+                       "bankname":"中国工商银行股份有限公司"，//银行
+                       "planLimit":30, //投资天数
+                       "dayRate":10, //日化利率
+                       "proportion":100 //项目进度
+                  }
+         ]
+     }
+  }
+
+
+
+//我要投资的招标详情页  /api/item/：id
+ {
+     "errno":0,
+     "errmsg":"",
+     "data":{
+        "projectMessage":{
+            "planName":"测试标",  //产品名称
+            "planNumber":"bill_01",//产品编号
+            "borrowerName":"北京互融时代科技",//借款企业
+            "planMoney":200.00,//融资金额
+            "productName":"时点存款",//业务类型
+            "bankname":"北京建设银行朝阳区分行",//银行
+            "planLimit":3,//投资天数
+            "dayRate":5,//日化利率
+            "deadline":"2016-8-11",//停售时间
+            "linkperson":"王同"//联系人
+        },
+        "shareholders":[{
+                "shareholder":"互融时代软件公司",
+                "shareholderType":"企业"
+            },{
+                "shareholder":"李四",
+                "shareholderType":"个人"
+            }],
+        "leadTeam":[{
+                "duty":"总经理",//职位
+                "name":"张**",//姓名 （脱敏处理）
+                "cellphone":"137******75"//手机号（脱敏处理）
+            },{
+                "duty":"总裁助理",//职位
+                "name":"李*",//姓名 （脱敏处理）
+                "cellphone":"136******66"//手机号（脱敏处理）
+            },{
+            }],
+        "otherMaterials":[{
+               "msg":"msg/file/1111.jpg"  //图片相对路径
+            },{
+                "msg":"msg/file/222.jpg"  //图片相对路径
+            }}],
+        "creditLevel":"AAA"
+     }
+ }
+
+//我要投资的招标详情页 ---  投资记录  /api/record/：id （登录后并且投资后才能出现结果集）
+{
+      "errno":0,
+      "errmsg":"",
+      "data":{
+          "data":[{
+                        "investName":"张**",//投标人（脱敏处理）
+                        "bidtime":"2016-09-01",//投资时间
+                        "userMoney":100.00,//投资金额
+                        "shares":2 //投资份数
+                   },{  "investName":"王**",//投标人（脱敏处理）
+                        "bidtime":"2016-09-05",//投资时间
+                        "userMoney":150.00,//投资金额
+                        "shares":3 //投资份数
+                   },{  "investName":"欧**",//投标人（脱敏处理）
+                        "bidtime":"2016-09-07",//投资时间
+                        "userMoney":400.00,//投资金额
+                        "shares":8 //投资份数
+                   },{  "investName":"江**",//投标人（脱敏处理）
+                        "bidtime":"2016-09-11",//投资时间
+                        "userMoney":500.00,//投资金额
+                        "shares":10 //投资份数
+                   }
+          ]
+      }
+ }
+

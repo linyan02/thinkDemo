@@ -1,0 +1,16 @@
+//运营报告  "report"
+{
+   "errno":0,//
+   "errmsg":"",
+   "data":{ "oprateingDays":1062, //运营天数
+            "userNu":9, //用户总数
+            "dealMoney":166,//交易总额
+            "totalProjects":16，//项目总期数
+            "investAvg":16，//人均累计投资额
+            "sigleInvestAvg":16，//笔均投资额
+            "fullTimeAvg":16，//平均满标时间
+            "loanerNu":16，//借款方数量（人）
+            "sigleLoanAvg":16，//笔均借款额（元）
+            "loanAvg":16  //平均累计借款金额
+            }
+ }

@@ -1,0 +1,123 @@
+{
+  "errno": 0,
+  "errmsg": "",
+  "data": {
+    "page": {
+      "count": 150,
+      "totalPages": 15,
+      "numsPerPage": 10,
+      "currentPage": 2
+    },
+    "data": [
+      {
+        "id": 1600,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "94320160625112604",
+        "payMoney": 2,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-25T03:26:04.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1602,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "34120160625112604",
+        "payMoney": 2.07,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-25T03:26:04.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1592,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "72620160624185405",
+        "payMoney": 2,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1594,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "13820160624185405",
+        "payMoney": 1.93,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1597,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "86920160624185405",
+        "payMoney": 1.93,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1590,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "63620160624185405",
+        "payMoney": 1.93,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1593,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "14820160624185405",
+        "payMoney": 1.93,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1596,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "97020160624185405",
+        "payMoney": 2,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:54:05.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1589,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "62135348364439325-4141L",
+        "payMoney": 11.72,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:51:44.000Z",
+        "transferTypeName": "借款人还本付息"
+      },
+      {
+        "id": 1588,
+        "investPersonId": 582,
+        "investPersonName": "张春波",
+        "recordNumber": "58335282757743208-4141L",
+        "payMoney": 11.72,
+        "incomMoney": 0,
+        "dealRecordStatus": 2,
+        "dealDate": "2016-06-24T10:50:39.000Z",
+        "transferTypeName": "借款人还本付息"
+      }]
+  }
+}
